@@ -1,0 +1,26 @@
+.header_color{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.header_corpo{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: cyan;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.links{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.active{
+    color: tomato;
+}
