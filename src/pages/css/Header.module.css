@@ -1,5 +1,6 @@
 .header_color{
     background-color: black;
+    position: fixed;
     height: 50px;
     width: 100%;
 }
@@ -9,6 +10,7 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .logo{
     color: cyan;
@@ -20,6 +22,9 @@
     font-size: 1.3rem;
     text-decoration: none;
     margin: 0 10px;
+}
+li{
+    display: inline-block;
 }
 .active{
     color: tomato;
